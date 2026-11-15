@@ -6,10 +6,12 @@
 	(paper "A4")
 	(title_block
 		(title "Replica MXR Distortion+")
+		(date "2026-11-15")
 		(company "FIUBA")
 		(comment 1 "Autor: Tomás Taravella")
 		(comment 2 "Materia: DCI")
 		(comment 3 "Carrera: MME")
+		(comment 4 "Licencia: CERN-OHL-S")
 	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:LM741"
@@ -1959,7 +1961,7 @@
 	)
 	(rectangle
 		(start 69.85 34.29)
-		(end 90.17 73.66)
+		(end 93.98 73.66)
 		(stroke
 			(width 0)
 			(type default)
@@ -2115,7 +2117,7 @@
 		)
 		(uuid "9d47b2e2-5c82-4f46-a00a-adac959cefef")
 	)
-	(text "Nota: SW1 es un footswitch para realizar\nbypass del efecto. Consiste en una llave\nde 2 posiciones y 3 polos atornillada a\nla carcasa del pedal (como los jacks)"
+	(text "Nota: SW1 es un footswitch para realizar\nbypass del efecto. Consiste en una llave\nde 2 posiciones y 3 polos atornillada a\nla carcasa del pedal (como los jacks).\nSe colocan pads para soldar los cables."
 		(exclude_from_sim no)
 		(at 45.72 160.274 0)
 		(effects
@@ -3043,6 +3045,16 @@
 		)
 		(uuid "31febeb4-caf7-4311-8e8f-8daaa59e8d07")
 	)
+	(label "led_out"
+		(at 62.23 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "428c133b-135c-4dfc-b47b-f458b3c759ac")
+	)
 	(symbol
 		(lib_id "Device:C")
 		(at 200.66 105.41 0)
@@ -3077,7 +3089,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm"
 			(at 201.6252 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -3159,7 +3171,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
 			(at 261.62 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -3237,7 +3249,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 222.25 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -3495,7 +3507,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 176.53 95.5548 0)
 			(hide yes)
 			(show_name no)
@@ -3574,7 +3586,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 146.05 130.048 90)
 			(hide yes)
 			(show_name no)
@@ -3653,7 +3665,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm"
 			(at 92.71 93.0148 0)
 			(hide yes)
 			(show_name no)
@@ -3735,7 +3747,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 113.792 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -3815,7 +3827,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
 			(at 48.26 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -3891,7 +3903,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 149.86 117.1448 0)
 			(hide yes)
 			(show_name no)
@@ -3972,7 +3984,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 212.09 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -4076,7 +4088,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 83.058 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -4236,7 +4248,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm"
 			(at 73.3552 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -4316,7 +4328,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
 			(at 48.26 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -4393,7 +4405,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
 			(at 48.26 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -4549,7 +4561,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 125.222 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -4628,7 +4640,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L10.3mm_W4.5mm_P7.50mm_MKS4"
 			(at 104.4448 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -4708,7 +4720,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 187.96 98.298 90)
 			(hide yes)
 			(show_name no)
@@ -4788,7 +4800,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_LongPads"
 			(at 147.32 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -4888,7 +4900,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 113.792 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -5047,7 +5059,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 			(at 240.03 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -5162,7 +5174,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 102.87 100.838 90)
 			(hide yes)
 			(show_name no)
@@ -5320,7 +5332,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
 			(at 48.26 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -5396,7 +5408,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 102.87 95.758 90)
 			(hide yes)
 			(show_name no)
@@ -5478,7 +5490,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 			(at 95.25 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -5673,7 +5685,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 60.452 101.6 90)
 			(hide yes)
 			(show_name no)
@@ -5830,7 +5842,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm"
 			(at 119.38 98.0948 0)
 			(hide yes)
 			(show_name no)
@@ -6067,7 +6079,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 209.55 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -6143,7 +6155,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 209.55 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -6208,7 +6220,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED 5mm"
 			(at 84.455 65.0874 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6219,7 +6231,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 81.28 62.23 0)
 			(hide yes)
 			(show_name no)
